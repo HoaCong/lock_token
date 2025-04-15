@@ -1,0 +1,30 @@
+[package]
+name = "lock-fambam"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "lock_fambam"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build"]
+
+[profile.dev]
+overflow-checks = true
+opt-level = 1
+
+[profile.release]
+overflow-checks = true
+opt-level = "z"  # hoặc 1
+
+
+[dependencies]
+anchor-lang = { version = "0.31.0", features = ["init-if-needed"] }
+anchor-spl = { version = "0.31.0", features = ["idl-build"] }                                                                      
