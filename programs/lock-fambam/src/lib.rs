@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 use anchor_spl::token::{self, Mint, Token, TokenAccount, Transfer};
 
-declare_id!("CQgk8jWyhqtEkJVMLyEZwnkShUJQUb8nEM1J5bmrJk3A");
+declare_id!("HQZKovpR4kRKQkpgoxaEh3nKsRk4SBVb1JKcfSyXijQv");
 
 #[program]
 pub mod token_lock {

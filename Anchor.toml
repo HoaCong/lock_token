@@ -6,7 +6,7 @@ resolution = true
 skip-lint = false
 
 [programs.devnet]
-lock_fambam = "CQgk8jWyhqtEkJVMLyEZwnkShUJQUb8nEM1J5bmrJk3A"
+lock_fambam = "HQZKovpR4kRKQkpgoxaEh3nKsRk4SBVb1JKcfSyXijQv"
 
 [registry]
 url = "https://api.apr.dev"
